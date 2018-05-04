@@ -38,5 +38,5 @@ The KG embeddings should be stored as pickle (python2.7) file named `"<dataset>.
   1.  `python perfAnalysis.py -m <data-directory> -d <dataset-name> -g <conicity/length> --opdir <output-directory> --type <ent/rel> -p <performance-file>`
   2.  `python perfAnalysis.py -m <data-directory> -d <dataset-name> -g <conicity/length> --opdir <output-directory> --type <ent/rel> --result -p <performance-file>` (for generating the plots)
   
-    Here the `<performance-file>` is a pickled file containing performance of different models. It is a nested dictionary and `perf['<method>'][<dimension>][<numNegatives>]` should contain performance `{'MRR':<MRR-value>, 'MR':<MR-value>, 'Hits@10':<Hits@10-value>}` for `<method>` with vector size `<dimension>` and `<numNegatives>` number of negative samples.
+      Here the `<performance-file>` is a pickled file containing performance of different models. It is a nested dictionary and `perf['<method>'][<dimension>][<numNegatives>]` should contain performance `{'MRR':<MRR-value>, 'MR':<MR-value>, 'Hits@10':<Hits@10-value>}` for `<method>` with vector size `<dimension>` and `<numNegatives>` number of negative samples.
   
