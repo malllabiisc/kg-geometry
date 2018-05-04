@@ -16,7 +16,7 @@ The KG embeddings should be stored as pickle (python2.7) file named `"<dataset>.
   3.  `'E'` : numpy array of size (numEntities X dimension) containing entity embeddings.
   4.  `'R'` : numpy array of size (numRelations X dimension) containing relation embeddings.
   5.  `'model'` : model name.
-  6.  `'fpos test'` : ranks of head and tail entities obtained during link prediction. It is required for performance analysis. It should be a dictionary with relation index as keys, e.g. `{rel_id1 :{'head':[head_rank_1, head_rank_2, ...], 'tail':[tail_rank_1, tail_rank_2, ...]}`.
+  6.  `'fpos test'` : ranks of head and tail entities obtained during link prediction. It is required for performance analysis. It should be a dictionary with relation index as keys, e.g. `{rel_id1 :{'head':[head_rank_1, head_rank_2, ...], 'tail':[tail_rank_1, tail_rank_2, ...]}}`.
   
   ## Running type analysis
   For running type analysis (Section 5.1 in the paper), please run following command:
