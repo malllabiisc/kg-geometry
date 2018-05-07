@@ -1,5 +1,5 @@
-# Towards Understanding Geometry of Knowledge Graph Embeddings
-This is the code for generating the results in the paper "Towards Understanding Geometry of Knowledge Graph Embeddings" to be presented at 56th Annual Meeting of the Association for Computational Linguistics at Melbourne, July 15 to July 20, 2018.
+# Towards Understanding the Geometry of Knowledge Graph Embeddings
+This is the code for generating the results in the paper "Towards Understanding the Geometry of Knowledge Graph Embeddings" to be presented at 56th Annual Meeting of the Association for Computational Linguistics at Melbourne, July 15 to July 20, 2018.
 
 ## Required data format
 The analysis requires pre-trained KG embeddings along with the KG triples data.
