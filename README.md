@@ -40,3 +40,20 @@ The KG embeddings should be stored as pickle (python2.7) file named `"<dataset>.
   
       Here the `<performance-file>` is a pickled file containing performance of different models. It is a nested dictionary and `perf['<method>'][<dimension>][<numNegatives>]` should contain performance `{'MRR':<MRR-value>, 'MR':<MR-value>, 'Hits@10':<Hits@10-value>}` for `<method>` with vector size `<dimension>` and `<numNegatives>` number of negative samples.
   
+  ## Citation
+  If you find our work or this codebase useful, please cite us:
+  ```
+  @inproceedings{chandrahas-etal-2018-towards,
+    title = "Towards Understanding the Geometry of Knowledge Graph Embeddings",
+    author = "{Chandrahas}  and
+      Sharma, Aditya  and
+      Talukdar, Partha",
+    booktitle = "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2018",
+    address = "Melbourne, Australia",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/P18-1012",
+    pages = "122--131",
+    }
+  
